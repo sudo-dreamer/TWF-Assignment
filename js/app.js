@@ -174,7 +174,7 @@ firebase.auth().onAuthStateChanged((user) => {
     } else {
         //   No user is signed in.
         console.log(window.location.pathname)
-        if (window.location.pathname === '/FirebaseAuthWebAPP-master/pages/profile.html')
+        if (window.location.pathname === '/pages/profile.html' || window.location.pathname === '/pages/first.html')
             window.location.replace("../index.html");
     }
 });
